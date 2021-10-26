@@ -218,6 +218,10 @@ input[type="text"]::-webkit-input-placeholder {
   cursor: pointer;
 }
 
+section {
+  max-width: 1492px;
+}
+
 .navigation {
   margin-bottom:  40px;
   margin-left:  214px;
@@ -225,7 +229,6 @@ input[type="text"]::-webkit-input-placeholder {
   min-width: 1492px;
   max-height:56px;
   word-wrap: unset;
-  
 }
 
 .container {
@@ -242,6 +245,7 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 .nav-menu {
+  margin-right: 0;
   max-width: 1492px;
   font-size: 14px;
   color: #787885;
